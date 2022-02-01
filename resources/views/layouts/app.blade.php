@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name='csrf-token' content='{{ csrf_token() }}'>
 
-    <title>Instact @yield('title')</title>
+    <title>Clients</title>
 
     <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body>
-    @yield('content')
+<body class = "bg-light">
 
     <script src="{{ asset('plugins/sweetalert/sweetalert2.all.min.js') }}"></script>
     <script src="{{ asset('plugins/bootstrap/bootstrap.min.js') }}"></script>
